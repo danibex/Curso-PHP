@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Aula 04</title>
+    <title>Aula 05</title>
 </head>
 <body>
 <div>    
@@ -13,6 +13,14 @@
     $s = $n1 + $n2;
     echo "A soma entre $n1 e $n2 é igual a $s";
     ?>
+<!--    Soma            $s = $n1 + $n2;  
+        Subtração       $s = $n1 - $n2;
+        Multiplicação   $s = $n1 * $n2;
+        Divisão         $s = $n1 / $n2;
+        Modulo          $s = $n1 % $n2;              
+-->
+
+
 </div>
 </body>
 </html>
