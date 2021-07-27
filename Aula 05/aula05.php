@@ -11,7 +11,9 @@
     $n1 = 3;
     $n2 = 2;
     $s = $n1 + $n2;
-    echo "A soma entre $n1 e $n2 é igual a $s";
+    $m = ($n1 + $n2) / 2;
+    echo "A soma entre $n1 e $n2 é igual a $s <br>";
+    echo "A média é $m";
     ?>
 <!--    Soma            $s = $n1 + $n2;  
         Subtração       $s = $n1 - $n2;
