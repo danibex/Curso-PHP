@@ -11,7 +11,7 @@
     /* Inserir paratros na url: http://localhost/Curso%20php/Aula%2005/Operadores.php?a=3&b=2 */
         /*$n1= 3;
         $n2= 2;*/
-    $n1 = $_GET["a"];
+    $n1 = $_GET["a"];   
     $n2 = $_GET["b"];
     $m = ($n1 + $n2) / 2;  
     echo "A soma vale ". ($n1+$n2);

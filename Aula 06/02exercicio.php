@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>01 Exercicio</title>
+    <title>02 Exercicio</title>
 </head>
 <body>
 <div>    
     <?php
-    $preco = $_GET["p"];
-    echo "O preco do produto é R$ $preco";
-    $preco *= 0.9;
-    echo "<br>O produto com 10% de desconto é R$ ". number_format($preco, 2);
+    $atual = $_GET["aa"];
+    echo "O ano atual é ". $atual--;            // COMENTARIO ALTERNATIVO 01
+    echo "<br>O ano passado foi ". $atual++;    #  COMENTARIO ALTERNATIVO 02
+    echo "<br>O ano que vem será ". ++$atual;   /* COMENTARIO ALTERNATIVO 03 */
     ?>
 <!--    Pré-incremento ++$a
         Pós-incremento $a++
